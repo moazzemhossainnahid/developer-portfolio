@@ -25,6 +25,17 @@ section#header {
     margin: auto;
 }
 
+section#dreambig {
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin: auto;
+}
+
 div.left-side {
     width: 50%;
     padding-left: 5%;
@@ -35,7 +46,16 @@ div.right-side {
     padding-left: 10%;
 }
 
+section#dreambig div.right-side {
+    width: 50%;
+    margin-top: -100px;
+}
+
 div.right-side img {
+    width: 90%;
+}
+
+div.left-side img {
     width: 90%;
 }
 
