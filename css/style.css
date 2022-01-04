@@ -22,7 +22,6 @@ section#header {
     justify-content: center;
     align-items: center;
     padding: 5%;
-    margin: auto;
 }
 
 section#dreambig {
@@ -33,7 +32,16 @@ section#dreambig {
     justify-content: center;
     align-items: center;
     padding: 5%;
-    margin: auto;
+}
+
+section#experience {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
 }
 
 div.left-side {
@@ -47,7 +55,6 @@ div.right-side {
 }
 
 section#dreambig div.right-side {
-    width: 50%;
     margin-top: -100px;
 }
 
@@ -95,4 +102,43 @@ a.hirebtn {
 a.hirebtn:hover {
     background: linear-gradient(to right, #F9775F, #fd9677);
     transition: all 1s;
+}
+
+h1.expHD {
+    font-size: 40px;
+}
+
+h3.exp2d {
+    font-size: 20px;
+    color: darkorange;
+}
+
+div.expLeft {
+    width: 570px;
+    height: 350px;
+    padding: 10px;
+    background: #ffffff00;
+    box-shadow: 10px 2px 30px rgb(196, 196, 196);
+    margin-right: 25px;
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+div.expright {
+    width: 570px;
+    height: 350px;
+    padding: 10px;
+    background: #ffffff00;
+    box-shadow: 10px 2px 30px rgb(196, 196, 196);
+    margin-left: 25px;
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
